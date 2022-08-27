@@ -1,0 +1,12 @@
+.sign{
+    width: 200px;
+    &__wrapper{
+        height: 100%;
+        @extend %flex;
+        justify-content: space-between;
+    }
+    &__heading{
+        padding: 10px 0;
+        @include font($h3-text-size,600);
+    }
+}

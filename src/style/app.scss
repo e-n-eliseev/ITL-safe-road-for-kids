@@ -1,0 +1,25 @@
+@import "./vars";
+@import "./mixins";
+@import "./main";
+@import "./info";
+@import "./rules";
+@import "./rule";
+@import "./sign";
+@import "./footer";
+
+.App{
+    min-height: 100vh;
+    color: $main-text-color;
+    @extend %flex;
+    box-sizing: border-box;
+}
+.main,.footer__wrapper{
+    max-width: 1024px;
+    padding: 10px;
+}
+
+@media (max-width:375px){
+    .main,.footer__wrapper{
+        padding: 5px;
+    }
+}

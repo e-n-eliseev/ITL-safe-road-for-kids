@@ -1,0 +1,17 @@
+.footer{
+    min-height: 75px;
+    width: 100%;
+    @extend %flex;
+    @extend %shadow;
+    &__heading{
+        @include font($h2-text-size, 600);
+        text-align: center;
+    }
+    &__info{
+        @include font();
+        margin-top: 10px; 
+        & span{
+            @include font($plain-text-size,500); 
+        } 
+    }
+}

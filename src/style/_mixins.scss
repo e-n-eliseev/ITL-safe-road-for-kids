@@ -1,0 +1,14 @@
+%flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+%shadow{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@mixin font($fs:$plain-text-size, $fw: 400 ) {
+    font-size: $fs;
+    font-weight: $fw;
+}

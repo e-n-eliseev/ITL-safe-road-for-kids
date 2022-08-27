@@ -1,0 +1,24 @@
+.rules, .signs{
+    @extend %flex;
+    &__heading{
+        padding: 82px 0 0 0;
+        @include font($h2-text-size,900);
+    }
+    &__info{
+        padding: 40px 0;
+        @include font();
+    }
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px){
+    .rules{
+        &__heading{
+            padding: 139px 0 0 0; 
+        }
+    }
+}

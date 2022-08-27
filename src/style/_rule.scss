@@ -1,0 +1,27 @@
+.rule, .sign{
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    @extend %flex;
+    justify-content: flex-start;
+    @extend %shadow;
+}
+.rule{
+    width: 345px;
+    &__pic{
+        object-fit: cover;
+        &-wrapper{
+            width: 270px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+    }
+    &__heading{
+        padding: 20px 0;
+        @include font($h3-text-size,600);
+    }
+    &__text{
+        @include font($card-text-size);
+    }
+}

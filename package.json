@@ -9,7 +9,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.3",
+    "aos": "^3.0.0-beta.6",
+    "node-sass": "^7.0.1",
+    "scss-reset": "^1.2.2",
+    "uniqid": "^5.4.0",
+    "react-scroll-into-view": "^1.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
