@@ -36,7 +36,7 @@ const Header = () => {
                 <ScrollIntoView value="three" selector=".signs__heading">
                     <Tab value="three" label="Знаки" icon={<FollowTheSignsIcon />} iconPosition="bottom" />
                 </ScrollIntoView>
-                <ScrollIntoView value="four" selector=".footer">
+                <ScrollIntoView value="four" selector=".video">
                     <Tab value="four" label="Инфо" icon={<ContactsIcon />} iconPosition="bottom" />
                 </ScrollIntoView>
             </Tabs>
